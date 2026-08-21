@@ -1,0 +1,24 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+backend/pcb_bom.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.xlsx
+
+# Node / Vite
+node_modules/
+frontend/dist/
+frontend/.vite/
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
